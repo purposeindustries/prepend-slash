@@ -1,7 +1,7 @@
 {
   "name": "prepend-slash",
   "version": "1.0.0",
-  "description": "Sets a leading slash as the first paramater of a given string.",
+  "description": "Sets a leading slash as the first character of a given string.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

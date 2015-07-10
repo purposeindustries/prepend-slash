@@ -1,6 +1,6 @@
 # prepend-slash
 
-> Sets a leading slash as the first paramater of a given string.
+> Sets a leading slash as the first character of a given string.
 
 ## Install
 
