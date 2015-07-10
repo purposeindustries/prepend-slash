@@ -12,7 +12,7 @@
     "leading",
     "slash"
   ],
-  "author": "ruff",
+  "author": "ruffle1986",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^0.24.0",
