@@ -1,4 +1,4 @@
-# prepend-slash
+# prepend-slash [![Build Status](https://travis-ci.org/purposeindustries/prepend-slash.svg?branch=master)](https://travis-ci.org/purposeindustries/prepend-slash)
 
 > Sets a leading slash as the first character of a given string.
 
