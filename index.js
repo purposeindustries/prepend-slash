@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 
 /**
  * Put a slash at the beginning of the given string.
@@ -14,4 +14,4 @@ module.exports = function (str, strict) {
   }
   str = str || '';
   return str[0] === '/' ? str : '/' + str;
-}
+};

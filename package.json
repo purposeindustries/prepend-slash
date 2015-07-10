@@ -4,7 +4,8 @@
   "description": "Sets a leading slash as the first character of a given string.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "npm run lint && mocha",
+    "lint": "eslint ."
   },
   "keywords": [
     "prepend",
@@ -14,6 +15,7 @@
   "author": "ruff",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^0.24.0",
     "mocha": "^2.2.5",
     "should": "^7.0.2"
   }
