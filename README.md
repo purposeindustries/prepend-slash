@@ -4,7 +4,7 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install prepend-slash
 ```
 
@@ -36,7 +36,7 @@ Set it `false` to make it silent. It's useful if you're fine with '/' as a resul
 
 ## Test
 
-```bash
+```sh
 $ npm test
 ```
 
