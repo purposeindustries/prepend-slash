@@ -14,7 +14,7 @@
     "leading",
     "slash"
   ],
-  "author": "ruff",
+  "author": "ruffle1986",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^2.11.4",
