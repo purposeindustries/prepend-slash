@@ -1,6 +1,6 @@
 {
   "name": "prepend-slash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sets a leading slash as the first character of a given string.",
   "main": "index.js",
   "scripts": {
