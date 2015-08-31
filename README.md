@@ -1,4 +1,5 @@
-# prepend-slash [![Build Status](https://travis-ci.org/purposeindustries/prepend-slash.svg?branch=master)](https://travis-ci.org/purposeindustries/prepend-slash)
+# prepend-slash 
+[![Build Status](https://travis-ci.org/purposeindustries/prepend-slash.svg?branch=master)](https://travis-ci.org/purposeindustries/prepend-slash) [![Code Climate](https://codeclimate.com/github/purposeindustries/prepend-slash/badges/gpa.svg)](https://codeclimate.com/github/purposeindustries/prepend-slash) [![Coverage Status](https://coveralls.io/repos/purposeindustries/prepend-slash/badge.svg?branch=master&service=github)](https://coveralls.io/github/purposeindustries/prepend-slash?branch=master)
 
 > Sets a leading slash as the first character of a given string.
 
