@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && mocha",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && rm -rf ./coverage",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "keywords": [
     "prepend",
@@ -15,8 +17,11 @@
   "author": "ruff",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.4",
     "eslint": "^0.24.0",
+    "istanbul": "^0.3.19",
     "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
     "should": "^7.0.2"
   }
 }
